@@ -41,7 +41,7 @@ def recommend(query, top_n=5):
     return top_indices
 
 # --- App Header ---
-st.markdown("<h1 style='text-align: center;'>🎬 Semantic Movie Recommender</h1><hr>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>🎬 Movie Recommender</h1><hr>", unsafe_allow_html=True)
 
 # --- Query Input ---
 user_query = st.text_input("🔍 Enter a movie genre, theme, actor, or description:")

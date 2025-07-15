@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 import ast
 
 # --- Page Setup ---
-st.set_page_config(page_title="🎬 Semantic Movie Recommender", layout="wide")
+st.set_page_config(page_title="🎬 Movie Recommender", layout="wide")
 
 # --- Load Pickles ---
 movies = pickle.load(open('model/movies.pkl', 'rb'))  # contains movie_id, title, tags
